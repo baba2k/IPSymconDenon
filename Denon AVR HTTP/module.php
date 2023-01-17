@@ -370,7 +370,7 @@ class DenonAVRHTTP extends AVRModule
             DENONIPSProfiles::ptMainZonePower,
             DENONIPSProfiles::ptMainMute,
             DENONIPSProfiles::ptInputSource,
-            //DENONIPSProfiles::ptSurroundMode, //z.Zt. nicht unterstützt, da der SR7010 z.B. mit 'DOLBY SURROUND' antwortet
+            DENONIPSProfiles::ptSurroundMode,
             DENONIPSProfiles::ptMasterVolume,
             DENONIPSProfiles::ptSleep,
         ] as $key) {
